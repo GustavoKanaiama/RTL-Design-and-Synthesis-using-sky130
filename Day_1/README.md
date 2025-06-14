@@ -10,7 +10,10 @@ Topics:
 
 **Testbench** is the setup to apply stimulus(test_vectors) to the design to check its funcionality.
 
-![alt text](./img/day_img1.png "Test Bench Image")
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_1/img/day_img1.png"
+  />
+</p>
 
 ### Simulator
 * RTL design is checked for adherence to the spec by simulating the design
@@ -20,7 +23,10 @@ Topics:
 Simulator looks for the changes on the input signals. Upon change to the input, the output is evaluated. If no change to the input, no change to the output either.
 
 #### Iverilog Based Simulation Flow
-![alt text](./img/day1_img2.png "Iverilog Based Simulation Flow")
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_1/img/day1_img2.png"
+  />
+</p>
 
 ## Labs using iverilog and gtkwave
 First, we need to clone the git repository to get all the files we will need to run the simulations.
@@ -47,7 +53,10 @@ Now, we can easily access the verilog/testbench verilog files in the following d
 
 `./VSLI/sky130RTLDesignAndSynthesisWorkshop/verilog_files/`
 
-![alt text](./img/day1_img3.png "Example Files")
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_1/img/day1_img3.png"
+  />
+</p>
 
 #### Installing Iverilog and GTKWave
 To install iverilog and gtkwave open the Linux terminal and type the command:
@@ -81,7 +90,10 @@ View the waveform:
 gtkwave tb_good_mux.vcd
 ```
 
-![alt text](./img/day1_img4.png "Example Files")
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_1/img/day1_img4.png"
+  />
+</p>
 
 ## Introduction to Yosys and Gate Libraries
 
@@ -141,5 +153,7 @@ Visualize the gate-level netlist
 ```shell
 show
 ```
-
-![alt text](./img/day1_img5.png "Yosys Synthesis")
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_1/img/day1_img5.png"
+  />
+</p>

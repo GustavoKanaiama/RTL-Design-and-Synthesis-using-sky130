@@ -207,6 +207,6 @@ show
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_3/img/day3_img12.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_3/img/day3_img13.png"
   />
 </p>

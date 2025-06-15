@@ -141,3 +141,43 @@ By doing the same process with the file `bad_mux.v` we get:
 </p>
 
 As we can see, the simulation does not behavior like a mux, because at the beginning, when sel=0, it should outputs i0. Because the _sel_ signal does not have any action, the mux does not work properly (as we see the bad sensitivity list in the code).
+
+Now, let's generate the bad_mux Netlist and see it waveform, to compare it:
+
+Open Yosys:
+```shell
+yosys
+```
+Read .lib:
+```shell
+read_liberty -lib ./lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+
+Read Verilog code:
+```shell
+read_verilog -noattr ./verilog_files/bad_mux.v
+```
+Synthesize:
+```shell
+synth -top bad_mux
+```
+Technology mapping:
+```shell
+abc -liberty /address/to/your/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+Write verilog netlist:
+```shell
+write_verilog -noattr bad_mux_net.v
+```
+Simulate the bad_mux_net:
+```shell
+iverilog ./my_lib/verilog_model/primitives.v ./my_lib/verilog_model/sky130_fd_sc_hd.v ./verilog_files/bad_mux_net.v ./verilog_files/tb_bad_mux.v
+
+```
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img9.png"
+  />
+</p>
+
+The upper waveform is from the `.v` file, the other is from the Netlist file. It's possible to see the clearly Synth Mismatch due to bad sensitivity list.

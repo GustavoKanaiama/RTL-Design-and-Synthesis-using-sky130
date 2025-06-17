@@ -181,3 +181,14 @@ iverilog ./my_lib/verilog_model/primitives.v ./my_lib/verilog_model/sky130_fd_sc
 </p>
 
 The upper waveform is from the `.v` file, the other is from the Netlist file. It's possible to see the clearly Synth Mismatch due to bad sensitivity list.
+
+## What I’ve learned today:
+
+* Understood GLS (Gate Level Simulation) and why it is used to verify the netlist post-synthesis.
+* Recognized the causes of synthesis-simulation mismatches, such as:
+  * Incomplete sensitivity lists.
+  * Wrong use of blocking (=) vs non-blocking (<=) assignments.
+* Practiced lab exercises using good_mux, bad_mux, and ternary_operator_mux to simulate and identify mismatches.
+* Synthesized designs using Yosys, performed technology mapping, and generated gate-level netlists.
+* Ran both pre-synthesis and post-synthesis simulations using GTKWave to compare behaviors.
+* Saw how incorrect coding can infer unintended hardware (e.g., flip-flops) and lead to incorrect functionality after synthesis.

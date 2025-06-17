@@ -223,3 +223,15 @@ show
   <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_2/img/day2_img11.png"
   />
 </p>
+
+## What I’ve learned today:
+
+* Understood how .lib timing files define gate behavior based on Process, Voltage, and Temperature (PVT).
+* Explored cell characteristics like area, delay, and logic function in .lib files.
+* Learned the difference between Hierarchical and Flat Synthesis:
+    * Hierarchical synthesis maintains modularity.
+    * Flat synthesis merges modules for global optimization.
+* Saw how synthesis output differs between hierarchical and flat modes.
+* Studied glitches and how flip-flops help avoid them by synchronizing signal changes.
+* Analyzed D Flip-Flop behavior with asynchronous and synchronous resets.
+* Synthesized and visualized a DFF using Yosys and Sky130 library.

@@ -180,3 +180,11 @@ gtkwave tb_rca.v
   <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img14.png"
   />
 </p>
+
+## What I’ve learned today:
+
+* Reviewed all key concepts learned in the previous days: RTL coding, simulation, synthesis, and netlist generation.
+* Understood that digital circuit optimization is a key goal in synthesis.
+* Recognized the use of open-source tools such as Iverilog, GTKWave, Yosys, and Sky130 PDK.
+* Learned how each tool fits into a real ASIC frontend design flow.
+* Gained a clearer view of the practical, industry-relevant flow of going from RTL to gate-level with full verification.

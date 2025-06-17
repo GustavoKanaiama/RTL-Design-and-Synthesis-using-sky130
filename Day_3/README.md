@@ -210,3 +210,14 @@ show
   <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_3/img/day3_img13.png"
   />
 </p>
+
+## What I’ve learned today:
+
+* Learned combinational logic optimization techniques like constant propagation and Boolean simplification (K-Map, Quine-McCluskey).
+* Understood how synthesis tools can reduce gate count and improve performance by identifying redundant logic.
+* Ran synthesis labs that demonstrated logic reduction using test designs.
+* Learned sequential optimizations such as:
+  * Constant value flops can be removed.
+  * Sequential logic simplification (e.g., unused outputs).
+* Identified and removed unused outputs to save power and area.
+* Understood how synthesis tools decide what logic to retain or discard based on usage.

@@ -157,3 +157,14 @@ show
   <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_1/img/day1_img5.png"
   />
 </p>
+
+## What I’ve learned today:
+
+* The difference between a design and a testbench in Verilog.
+* How simulation works using Iverilog and waveform viewing with GTKWave.
+* The simulation flow using Iverilog: writing code -> compiling -> running -> viewing waveforms.
+* Installed open-source tools like Iverilog and GTKWave for RTL simulation.
+* Learned how to compile and simulate a multiplexer design and visualize outputs.
+* Introduction to Yosys for synthesis and how it transforms Verilog into a gate-level netlist.
+* Understood the role of .lib files and how synthesis tools choose the best gate variant based on area, power, or performance.
+* Performed a synthesis lab with Yosys using the Sky130 standard cell library.

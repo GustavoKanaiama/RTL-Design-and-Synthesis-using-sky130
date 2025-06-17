@@ -1,9 +1,10 @@
 #  Day 1 - Introduction to Verilog RTL design and Synthesis
 Topics:
-- Introduction to open-source simulator iverilog
-- Labs using iverilog and gtkwave
-- Introduction to Yosys and Logic synthesis
-- Labs using Yosys and Sky130 PDKs
+- [Introduction to open-source simulator iverilog](#introduction-to-open-source-simulator-iverilog)
+- [Labs using iverilog and gtkwave](#labs-using-iverilog-and-gtkwave)
+- [Introduction to Yosys and Logic synthesis](#introduction-to-yosys-and-gate-libraries)
+- [Labs using Yosys and Sky130 PDKs](#6-synthesis-lab-with-yosys)
+
 ## Introduction to open-source simulator iverilog
 ### Design vs Testbench
 **Design** is the actual Verilog code or set of Verilog codes which has the intended funcionality to meet with the required specifications.
@@ -120,7 +121,7 @@ A `.lib` file contains many versions of each gate (like AND, OR, NOT) with diffe
 
 ---
 
-### 6. Synthesis Lab with Yosys
+## 6. Synthesis Lab with Yosys
 
 Let’s synthesize the `good_mux` design using Yosys. 
 

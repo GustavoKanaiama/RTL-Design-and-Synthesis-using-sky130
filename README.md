@@ -5,7 +5,7 @@ The workshop is structured into daily modules, each featuring practical labs, co
 
 ## Table of Contents
 The Workshop is organized by day.
-* Day 1 -  Introduction to Verilog RTL design and Synthesis
+* Day 1 - Introduction to Verilog RTL design and Synthesis
 * Day 2 - Timing libs, hierarchical vs flat synthesis and efficient flop coding styles
 * Day 3 - Combinational and sequential optimizations
 * Day 4 - GLS, blocking vs non-blocking and Synthesis-Simulation mismatch
@@ -17,3 +17,9 @@ The Workshop is organized by day.
 * Yosys (RTL synthesis / Netlist generation)
 * Icarus Verilog (Verilog simulation)
 * Sky130 PDK (Standard cells for synthesis)
+
+## Acknowledgements
+
+*  [Shon Taware](https://www.linkedin.com/in/shon-taware/)
+*  [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)
+*  Open-source tools providers like Yosys and Sky130 PDK.

@@ -1,8 +1,8 @@
 # Day 2 - Timing libs, hierarchical vs flat synthesis and efficient flop coding styles
 Topics:
-- Introduction to timing .libs
-- Hierarchical vs Flat Synthesis
-- Various Flop Coding Styles and optimization
+- [Introduction to timing .libs](#introduction-to-timing-libs)
+- [Hierarchical vs Flat Synthesis](#hierarchical-vs-flat-synthesis)
+- [Various Flop Coding Styles and optimization](#various-flop-coding-style-optimizations)
 
 ## Introduction to timing .libs
 

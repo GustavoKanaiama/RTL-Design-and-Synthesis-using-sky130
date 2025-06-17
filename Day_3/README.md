@@ -1,10 +1,10 @@
 # Day 3 - Combinational and sequential optmizations
 Topics:
 
-- Introduction to optimizations
-- Combinational logic optimizations
-- Sequential logic optimizations
-- Sequential optimizations for unused outputs
+- [Introduction to optimizations](#introduction-to-logic-optimizations)
+- [Combinational logic optimizations](#introduction-to-logic-optimizations)
+- [Sequential logic optimizations](#sequential-logic-optimizations)
+- [Sequential optimizations for unused outputs](#unused-outputs-optimization)
 
 ## Introduction to Logic Optimizations
 

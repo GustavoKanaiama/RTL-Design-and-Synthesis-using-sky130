@@ -1,10 +1,10 @@
 # Day 5 - Optimization in synthesis
 Topics:
-- Constructs: "if" and "Case"
-- Labs on "Incomplete If Case"
-- Labs on "Incomplete overlapping Case"
-- Statements: "for loop" and "for generate"
-- Labs on Statements: "for loop" and "for generate"
+- [Constructs: "if" and "Case"](#constructs-if-and-case)
+- [Labs on "Incomplete If Case"](#lab-simulation)
+- [Labs on "Incomplete overlapping Case"](#lab-simulation)
+- [Statements: "for loop" and "for generate"](#statements-for-loop-and-for-generate)
+- [Labs on Statements: "for loop" and "for generate"](#statements-for-loop-and-for-generate)
 
 ## Constructs "if" and "case"
 

@@ -99,18 +99,10 @@ By reducing the number of logic gates and minimizing logic depth, this optimizat
 
 Sequential constant optimization is a synthesis technique that identifies and removes sequential elements (like flip-flops) whose outputs remain constant throughout operation. If analysis shows that a register always holds the same value (e.g., always 0 or 1) due to design constraints or logic conditions, the synthesis tool can eliminate the flip-flop and replace its output with the constant. This reduces circuit area, saves power, and simplifies timing by removing unnecessary sequential logic.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_3/img/day3_img2.png"
-  />
-</p>
 
 #### Lab
 This part going to use the files starting with `dff_const` inside the folder `./verilog_files/`.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_3/img/day3_img9.png"
-  />
-</p>
 
 Open Yosys:
 ```shell

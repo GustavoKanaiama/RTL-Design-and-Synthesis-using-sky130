@@ -52,7 +52,7 @@ Open with gtkwave:
 gtkwave tb_incomp_if.vcd
 ```
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img4.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img4a.png"width=450
   />
 </p>
 
@@ -94,7 +94,7 @@ It's possible to see the _Inferred Latch_:
 Now, making the exact same process, but with the files `incomp_case.v` and `tb_incomp_case.v`:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img6.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img6a.png"width=450
   />
 </p>
 
@@ -152,16 +152,11 @@ gtkwave tb_mux_generate.vcd
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img12.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img12a.png"width=450
   />
 </p>
 
 Now, for the `for` loop inside a `generate` block, imagine implementing a Ripple Carry Adder (RCA) with a configurable width—for example, 5 bits. Instead of manually instantiating each full adder stage, you can use a **`generate for` loop** to automatically create and connect the required number of stages based on the specified width, making the design easily scalable.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img13.png"
-  />
-</p>
 
 In this case, we are using a RCA but instantiating also a full adder(fa):
 
@@ -177,7 +172,7 @@ Open with GTKwave
 gtkwave tb_rca.v
 ```
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img14.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img14a.png"width=450
   />
 </p>
 

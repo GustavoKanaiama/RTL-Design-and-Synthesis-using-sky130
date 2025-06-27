@@ -15,7 +15,7 @@ Why GLS?
 * Ensuring the timing of the design is met. For this GLS needs to be run with delay annotation. (outside the scope of this discussion).
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img1.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img1a.png"
   />
 </p>
 
@@ -65,7 +65,7 @@ gtkwave tb_ternary_operator_mux.vcd
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img5.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img5a.png"
   />
 </p>
 
@@ -119,14 +119,14 @@ gtkwave tb_ternary_operator_mux.vcd
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img7.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img7a.png"
   />
 </p>
 
 By doing the same process with the file `bad_mux.v` we get:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img8.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img8a.png"
   />
 </p>
 
@@ -164,13 +164,7 @@ Simulate the bad_mux_net:
 iverilog ./my_lib/verilog_model/primitives.v ./my_lib/verilog_model/sky130_fd_sc_hd.v ./verilog_files/bad_mux_net.v ./verilog_files/tb_bad_mux.v
 
 ```
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img9.png"
-  />
-</p>
-
-The upper waveform is from the `.v` file, the other is from the Netlist file. It's possible to see the clearly Synth Mismatch due to bad sensitivity list.
+Then due to the bad sensitivity list, it occurs the **Synthesis Mismatch**.
 
 ## What I’ve learned today:
 

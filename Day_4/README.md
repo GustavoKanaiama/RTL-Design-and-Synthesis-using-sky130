@@ -25,12 +25,7 @@ Why GLS?
 * Non Standard Verilog Coding
 
 ### Missing Sensitivity List
-A **sensitivity list** is a part of a process block in hardware description languages like Verilog. It defines the signals that trigger the execution of the process whenever they change. For example of two different sensitivity list:
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img2.png"
-  />
-</p>
+A **sensitivity list** is a part of a process block in hardware description languages like Verilog. It defines the signals that trigger the execution of the process whenever they change.
 
 ### Blocking vs Non-Blocking assignments
 * Inside always block:
@@ -45,15 +40,10 @@ A **sensitivity list** is a part of a process block in hardware description lang
 #### Caveats with Blocking Statements
 * Using Block statements inside the _always_, the order matters, so by changing the order (in the example below) the synthesis infer one D Flop instead of two :
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img3.png"
-  />
-</p>
-
 * Other Caveat with Blocking Statement, is to accidentally infer a flop synthesis. Because the code evaluates an older `q0` value first for the output `y`,and then update the `q0`, this 1 cycle storage for `q0` is inferred as a Flop, and could cause a Synthesis Simulation Mismatch:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img4.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img4.png"width=450
   />
 </p>
 
@@ -103,7 +93,7 @@ abc -liberty /address/to/your/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 Write verilog netlist:
 ```shell
-write_verilog -noattr ternary_operator_mux_net.v
+write_verilog ternary_operator_mux_net.v
 ```
 Show
 ```shell

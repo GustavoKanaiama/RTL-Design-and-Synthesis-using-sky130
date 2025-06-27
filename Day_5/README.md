@@ -52,7 +52,7 @@ Open with gtkwave:
 gtkwave tb_incomp_if.vcd
 ```
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img4a.png"width=450
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img4a.png"width=650
   />
 </p>
 
@@ -94,7 +94,7 @@ It's possible to see the _Inferred Latch_:
 Now, making the exact same process, but with the files `incomp_case.v` and `tb_incomp_case.v`:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img6a.png"width=450
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img6a.png"width=650
   />
 </p>
 
@@ -152,7 +152,7 @@ gtkwave tb_mux_generate.vcd
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img12a.png"width=450
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img12a.png"width=650
   />
 </p>
 
@@ -169,10 +169,10 @@ Dump the VCD file
 ```
 Open with GTKwave
 ```shell
-gtkwave tb_rca.v
+gtkwave tb_rca.vcd
 ```
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img14a.png"width=450
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img14b.png"width=500
   />
 </p>
 

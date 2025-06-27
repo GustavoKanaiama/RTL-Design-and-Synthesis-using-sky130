@@ -20,6 +20,5 @@ The Workshop is organized by day.
 
 ## Acknowledgements
 
-*  [Shon Taware](https://www.linkedin.com/in/shon-taware/)
 *  [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)
 *  Open-source tools providers like Yosys and Sky130 PDK.

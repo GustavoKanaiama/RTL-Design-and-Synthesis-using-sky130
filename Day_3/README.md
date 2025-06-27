@@ -17,7 +17,7 @@ Topics:
 When the value of an input or intermediate signal is known to be constant, the synthesis tool replaces related logic expressions with their simplified constant result. This reduces unnecessary logic gates, minimizes area, and can improve timing by eliminating redundant computations in the circuit.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_3/img/day3_img1a.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_3/img/day3_img1a.png"width=300
   />
 </p>
 
@@ -25,7 +25,7 @@ When the value of an input or intermediate signal is known to be constant, the s
 This part going to use the files starting with `opt_` inside the folder `./verilog_files/`. The expect behavior of `opt_check.v`, `opt_check2.v`, and `opt_check3.v` files:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_3/img/day3_img4a.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_3/img/day3_img4a.png"width=300
   />
 </p>
 
@@ -87,7 +87,7 @@ Do the same for `opt_check3.v`, in this case, because of the constant propagatio
 By reducing the number of logic gates and minimizing logic depth, this optimization helps decrease circuit area, power consumption, and propagation delay. Techniques like Karnaugh maps and Quine-McCluskey are commonly used to identify and eliminate redundant logic, merge equivalent terms, and achieve a more efficient hardware implementation.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_3/img/day3_img2a.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_3/img/day3_img2a.png"width=300
   />
 </p>
 

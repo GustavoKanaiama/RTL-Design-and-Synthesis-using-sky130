@@ -52,7 +52,7 @@ Open with gtkwave:
 gtkwave tb_incomp_if.vcd
 ```
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img4a.png"width=650
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img4a.png"width=800
   />
 </p>
 

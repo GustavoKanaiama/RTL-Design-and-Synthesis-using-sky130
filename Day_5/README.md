@@ -101,14 +101,14 @@ Now, making the exact same process, but with the files `incomp_case.v` and `tb_i
 Then, with the synthesis it's possible to see the _Inferred Latch_ after the mux, due to the incomplete `case` statement:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img7.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img_rp1.png"
   />
 </p>
 
 To see the caveats with partial assignment in the `case` statement, we will proceed the exact same step-by-step but using the file `partial_case_assign.v`:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img8.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_5/img/day5_img_rp2.png"
   />
 </p>
 

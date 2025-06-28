@@ -65,7 +65,7 @@ gtkwave tb_ternary_operator_mux.vcd
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img5a.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img5ab.png"
   />
 </p>
 
@@ -119,14 +119,14 @@ gtkwave tb_ternary_operator_mux.vcd
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img7a.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img7ab.png"
   />
 </p>
 
 By doing the same process with the file `bad_mux.v` we get:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img8a.png"
+  <img src="https://raw.githubusercontent.com/GustavoKanaiama/RTL-Design-and-Synthesis-using-sky130/refs/heads/main/Day_4/img/day4_img8ab.png"
   />
 </p>
 
